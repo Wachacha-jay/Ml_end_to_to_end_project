@@ -1,9 +1,26 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-xgboost
-Flask
+# Core ML dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+xgboost>=1.6.0
 
-#-e .
+# Web framework
+Flask>=2.3.0
+
+# Visualization
+seaborn>=0.11.0
+matplotlib>=3.5.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+flake8>=5.0.0
+black>=22.0.0
+mypy>=0.991
+bandit>=1.7.0
+
+# API testing
+requests>=2.28.0
+
+# Development mode
+-e .
